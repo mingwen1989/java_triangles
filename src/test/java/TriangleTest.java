@@ -3,11 +3,11 @@ import static org.junit.Assert.*;
 
 public class TriangleTest {
 
-  // @Test
-  // public void newTriangle_instantiatesCorrectly_true() {
-  //   Triangle testTriangle = new Triangle(4, 4, 4);
-  //   assertEquals(true, testTriangle instanceof Triangle);
-  // }
+  @Test
+  public void newTriangle_instantiatesCorrectly_true() {
+    Triangle testTriangle = new Triangle(4, 4, 4);
+    assertEquals(true, testTriangle instanceof Triangle);
+  }
 
   @Test
   public void newTriangle_testSidemethod_Equalateral() {
